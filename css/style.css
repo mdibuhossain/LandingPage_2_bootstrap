@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .mainContainer{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scrollType{
+    scroll-snap-align: start;
+    height: 100vh;
+} */
+
+.mainContainer::before{
+    display: block;
+    content: "";
+    height: 50px;
+}
